@@ -44,10 +44,37 @@ header nav a:hover {
   text-transform: uppercase;
 }
 
-main h2 {
+main h1 {
   text-align: center;
   position: relative;
   font-family: "Open Sans", sans-serif;
   font-size: 60px;
-  color:rgb(235, 172, 79);
+  color: rgb(235, 172, 79);
+}
+
+img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+main ul {
+  display: flex;
+  justify-content: center;
+}
+
+main li {
+  width: 300px;
+  margin: 0 20px;
+  list-style: none;
+  background-color: white;
+  border-radius: 12px;
+}
+
+main li h2 {
+    text-align: center;
+}
+
+main li a {
+    display: flex;
 }
