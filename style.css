@@ -1,6 +1,7 @@
 body {
   background-color: rgb(40, 40, 40);
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
@@ -17,7 +18,6 @@ header ul {
 
 header li {
   margin-left: 50px;
-  font-family: "Open Sans", sans-serif;
   font-size: 24px;
 }
 
@@ -35,7 +35,6 @@ header nav a:hover {
 #logo a {
   text-decoration: none;
   color: rgb(235, 172, 79);
-  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
@@ -44,7 +43,6 @@ header nav a:hover {
 main h1 {
   text-align: center;
   position: relative;
-  font-family: "Open Sans", sans-serif;
   font-size: 60px;
   color: rgb(235, 172, 79);
   margin-bottom: 100px;
@@ -66,7 +64,6 @@ main li {
   margin: 0 20px;
   list-style: none;
   background-color: rgb(233, 194, 149);
-  font-family: "Open Sans", sans-serif;
   border-radius: 12px;
   text-align: center;
   padding-bottom: 20px;
